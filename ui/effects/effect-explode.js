@@ -27,7 +27,7 @@
 	} else {
 
 		// Browser globals
-		factory( jQuery );
+		factory( require('jquery') );
 	}
 }( function( $ ) {
 

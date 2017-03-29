@@ -27,7 +27,7 @@
 	} else {
 
 		// Browser globals
-		factory( jQuery );
+		factory( require('jquery') );
 	}
 }( function( $ ) {
 var controlgroupCornerRegex = /ui-corner-([a-z]){2,6}/g;
